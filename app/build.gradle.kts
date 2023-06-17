@@ -78,6 +78,11 @@ dependencies {
     // Koin
     implementation(Dependencies.Koin.android)
     implementation(Dependencies.Koin.compose)
+    // Pager
+    implementation(Dependencies.Pager.pager)
+    implementation(Dependencies.Pager.pagerIndicators)
+    // Data Store
+    implementation(Dependencies.DataStore.main)
     // Splash Screen
     implementation(Dependencies.SplashScreen.main)
 }
