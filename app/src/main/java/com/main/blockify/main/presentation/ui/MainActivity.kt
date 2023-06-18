@@ -22,11 +22,11 @@ class MainActivity : ComponentActivity() {
             CryptoTrackingTheme {
                 val navController = rememberNavController()
                 val systemUiController = rememberSystemUiController()
-                //val startDestination = mainViewModel.startDestination.value
+                val startDestination = mainViewModel.startDestination.value
 
                 RootNavigationGraph(
                     navController = navController,
-                    //startDestination = startDestination,
+                    startDestination = startDestination,
                 )
 
                 LaunchedEffect(key1 = Unit, block = {
